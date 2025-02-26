@@ -1,0 +1,30 @@
+{
+  "name": "polished-mountain-0a8d",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "billowing-tree-5f82-d1",
+      "database_id": "50665583-22cc-4df4-a8bb-497aae7e789d"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "polished-mountain-0a8d-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
